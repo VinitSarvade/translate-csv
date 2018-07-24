@@ -1,0 +1,44 @@
+{
+  "name": "translate-excel",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "google-translate-api": "^2.3.0",
+    "helmet": "^3.12.2",
+    "lodash": "^4.17.10",
+    "morgan": "^1.9.0",
+    "papaparse": "^4.5.0",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.3.0",
+    "xlsx": "^0.13.2"
+  },
+  "engines": {
+    "node": "10.0.7",
+    "npm": "6.0.2"
+  },
+  "scripts": {
+    "server": "node --harmony ./server/index.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
