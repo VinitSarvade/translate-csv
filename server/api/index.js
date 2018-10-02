@@ -12,7 +12,10 @@ api.post('/translate', ({ body: { data, input_column, output_column } }, res) =>
         return row;
       }));
     })
-    .catch(error => res.status(500).json(error.message))
+    .catch(error => {
+      console.error(error);
+      res.status(400).json(error);
+    })
 });
 
 module.exports = api;
